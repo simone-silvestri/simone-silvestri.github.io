@@ -1,0 +1,1 @@
+function saveToFirebase(e){var s={email:e};firebase.database().ref("subscription-entries").push().set(s).then(function(){success()},function(e){console.log("error"+e),e()})}saveToFirebase(email);
