@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "firebase": "^10.5.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
