@@ -19,17 +19,16 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-<!-- Research Scientist | Computational Fluid Dynamicist
+Research Scientist | Computational Fluid Dynamicist
 
-Welcome! I am a Research Scientist at the Massachusetts Institute of Technology (MIT) in Boston, USA. Originally specialized in Computational Fluid Dynamics and High Resolution Turbulence Simulation, I am now interested in the field of Computational Oceanography.
+Greetings, and welcome to my professional portfolio. I am a Research Scientist at the Massachusetts Institute of Technology (MIT) in Boston, USA, specializing in Computational Fluid Dynamics (CFD) and High-Resolution Turbulence Simulation. 
 
-As I studied both Physics and Computer Science, my methods are mostly computational. My undergrad theses were on Deep Inelastic Scattering with Boson Exchange and Interference, then Fault Injection for Robustness Testing of Satellite On-Board Image Processing (at the German Aerospace Center), and finally Analyzing the Network Effects of Computationally Generated Low Traffic Neighborhoods (at NERDS, ITU Copenhagen).
+My academic journey includes earning a PhD from Delft University of Technology, where my research focused on Direct Numerical Simulation of high temperature participating flows.
+Employing the CUDA programming, I implemented state-of-the-art methods for spectral directional radiation in participating gases. This effort resulted in a deep understanding of turbulence-radiation interactions, culminating in the development of a sophisticated parameterization for high temperature engineering flows.
 
-Inbetween, I interned at the Faculty of Technology, Policy and Management at TU Delft, The Netherlands, to gain experience in the field of active mobility and transport safety.
+Presently, my research interests have shifted to computational oceanography. As one of the main contributors to Oceananigans.jl, a computational software integral to the CliMA climate model, I am dedicated to advancing our comprehension of oceanic dynamics. I am particularly enthusiastic about the advancement of computational modeling of the ocean, including high-order numerical methods and algorithmic developments. 
 
-As of now, I am assisting with a research project at PLUS (ETH Zurich) in context of ValPar.ch, exploring the impact of future climate scenarios on biodiversity and ecosystem services in Switzerland. -->
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
