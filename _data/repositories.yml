@@ -1,12 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - simone-silvestri
+  - CliMA
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - CliMA/Oceananigans.jl
+  - CliMA/ClimaOcean.jl
+  - CliMA/ClimaSeaIce.jl
+  - simone-silvestri/WenoNeverworld.jl
+  - simone-silvestri/LESStudySetup.jl
+  - simone-silvestri/BaroclinicAdjustment.jl
+  - simone-silvestri/OrthogonalSphericalShellGrids.jl
+  - simone-silvestri/CudaNavierStokes
