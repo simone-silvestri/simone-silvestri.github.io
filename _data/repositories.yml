@@ -1,6 +1,5 @@
 github_users:
   - simone-silvestri
-  - CliMA
 
 github_repos:
   - CliMA/Oceananigans.jl
