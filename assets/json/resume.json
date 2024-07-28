@@ -24,14 +24,14 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "Earth, Atmospheric and Planetary Science Department, Massachusetts Instituute of Technology",
+      "position": "Postdoctoral Scholar",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "startDate": "2021-10-15",
+      "endDate": "2024-10-15",
+      "summary": "I was one of the developers of a new Ocean (and Sea-Ice) model built in the Julia language",
       "highlights": [
-        "Relativity"
+        "Computational Ocean Modeling"
       ]
     }
   ],
@@ -44,19 +44,10 @@
       "studyType": "PhD",
       "startDate": "2016-06-01",
       "endDate": "2021-06-01",
-      "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
+      "score": "cum laude"
     }
   ],
   "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
   ],
   "certificates": [],
   "publications": [],
