@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Computational fluid dynamicist with the passion of high resolution simulations
+subtitle: <a href='#'>Massachusetts Institute of Technology</a>. Computational fluid dynamicist with the passion of high resolution simulations
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: >
     <p>Working wherever...</p>
     
