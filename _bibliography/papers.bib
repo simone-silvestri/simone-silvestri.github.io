@@ -1,5 +1,14 @@
 ---
 ---
+@misc{souza2025surfaceseafloorgenerativeai,
+      title={Surface to Seafloor: A Generative AI Framework for Decoding the Ocean Interior State}, 
+      author={Andre N. Souza and Simone Silvestri and Katherine Deck and Tobias Bischoff and Raffaele Ferrari and Glenn R. Flierl},
+      year={2025},
+      eprint={2504.15308},
+      archivePrefix={arXiv},
+      primaryClass={physics.geo-ph},
+      url={https://arxiv.org/abs/2504.15308}, 
+}
 
 @misc{wagner2025highlevelhighresolutionoceanmodeling,
       title={High-level, high-resolution ocean modeling at all scales with Oceananigans}, 
@@ -49,15 +58,20 @@ bibtex_show = {true},
     journal = {Journal of Open Source Software}
 }
 
-@article{Silvestri_2024,
-bibtex_show = {true},
-  title={{A GPU-based ocean dynamical core for routine mesoscale-resolving climate simulations}},
-  url={http://dx.doi.org/10.22541/essoar.171708158.82342448/v1},
-  DOI={10.22541/essoar.171708158.82342448/v1},
-  publisher={Authorea, Inc.},
-  author={Simone Silvestri and Gregory LeClaire Wagner and Navid C Constantinou and Christopher N Hill and Jean-Michel Campin and Andre Nogueira Souza and Siddhartha Bishnu and Valentin Churavy and John C Marshall and Raffaele Ferrari},
-  year={2024}}
-
+@article{Silvestri2025,
+    bibtex_show = {true},
+    author = {Simone Silvestri and Gregory L. Wagner and Navid C. Constantinou and Christopher N. Hill and Jean-Michel Campin and Andre N. Souza and Siddhartha Bishnu and Valentin Churavy and John Marshall and Raffaele Ferrari},
+    title = {A GPU-Based Ocean Dynamical Core for Routine Mesoscale-Resolving Climate Simulations},
+    journal = {Journal of Advances in Modeling Earth Systems},
+    volume = {17},
+    number = {4},
+    pages = {e2024MS004465},
+    doi = {https://doi.org/10.1029/2024MS004465},
+    url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024MS004465},
+    note = {e2024MS004465 2024MS004465},
+    abstract = {Abstract We describe an ocean hydrostatic dynamical core implemented in Oceananigans optimized for Graphical Processing Unit (GPU) architectures. On 64 A100 GPUs, equivalent to 16 computational nodes in current state-of-the-art supercomputers, our dynamical core can simulate a decade of near-global ocean dynamics per wall-clock day at an 8-km horizontal resolution; a resolution adequate to resolve the ocean's mesoscale eddy field. Such efficiency, achieved with relatively modest hardware resources, suggests that climate simulations on GPUs can incorporate fully eddy-resolving ocean models. This removes a major source of systematic bias in current IPCC coupled model projections, the parameterization of ocean eddies, and represents a major advance in climate modeling. We discuss the computational strategies, focusing on GPU-specific optimization and numerical implementation details that enable such high performance.},
+    year = {2025}
+}
 @article{Strong-Wright2023, 
   bibtex_show = {true},
   doi = {10.21105/joss.05669}, 
@@ -83,19 +97,27 @@ bibtex_show = {true},
 
 @article{Wagner_2023,
   bibtex_show = {true},
-  title={CATKE: a turbulent-kinetic-energy-based parameterization for ocean microturbulence with dynamic convective adjustment},
-  url={http://dx.doi.org/10.22541/essoar.168748454.49694722/v1},
-  DOI={10.22541/essoar.168748454.49694722/v1},
-  publisher={Authorea, Inc.},
   author={Gregory LeClaire Wagner and Adeline Hillier and Navid Constantinou and Simone Silvestri and Andre Souza and Keaton Burns and Ali Ramadhan and Christopher Hill and Jean-Michel Campin and John Marshall and Raffaele Ferrari},
-  year={2023},
+  title = {Formulation and Calibration of CATKE, a One-Equation Parameterization for Microscale Ocean Mixing},
+  journal = {Journal of Advances in Modeling Earth Systems},
+  volume = {17},
+  number = {4},
+  pages = {e2024MS004522},
+  keywords = {turbulence, ocean modeling, boundary layers, machine learning, large eddy simulation, parameterization},
+  doi = {https://doi.org/10.1029/2024MS004522},
+  url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024MS004522},
+  eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2024MS004522},
+  note = {e2024MS004522 2024MS004522},
+  abstract = {Abstract We describe CATKE, a parameterization for fluxes associated with small-scale or “microscale” ocean turbulent mixing on scales between 1 and 100 m. CATKE uses a downgradient formulation that depends on a prognostic turbulent kinetic energy (TKE) variable and a diagnostic mixing length scale that includes a dynamic convective adjustment (CA) component. With its dynamic convective mixing length, CATKE predicts not just the depth spanned by convective plumes but also the characteristic convective mixing timescale, an important aspect of turbulent convection not captured by simpler static CA schemes. As a result, CATKE can describe the competition between convection and other processes such as shear-driven mixing and baroclinic restratification. To calibrate CATKE, we use Ensemble Kalman Inversion to minimize the error between 21 large eddy simulations (LESs) and predictions of the LES data by CATKE-parameterized single column simulations at three different vertical resolutions. We find that CATKE makes accurate predictions of both idealized and realistic LES compared to microscale turbulence parameterizations commonly used in climate models.},
+  year = {2025}
 }
 
 @article{Simone_silvestri_WENO,
   bibtex_show = {true},
   author = {Simone Silvestri and Gregory Wagner and Jean-Michel Campin and Navid Constantinou and Christopher Hill and Andre Souza and Raffaele Ferrari},
   title = {A New WENO-Based Momentum Advection Scheme for Simulations of Ocean Mesoscale Turbulence},
-bibtex_show = {true},  journal = {Journal of Advances in Modeling Earth Systems},
+  bibtex_show = {true},  
+  journal = {Journal of Advances in Modeling Earth Systems},
   volume = {16},
   number = {7},
   pages = {e2023MS004130},
