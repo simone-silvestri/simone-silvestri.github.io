@@ -24,7 +24,18 @@
   },
   "work": [
     {
-      "name": "Earth, Atmospheric and Planetary Science Department, Massachusetts Instituute of Technology",
+      "name": "Department of Environment, Land and Infrastructure Engineering (DIATI), Politecnico di Torino",
+      "position": "MSCA Postdoctoral Scholar",
+      "url": "https://example.com",
+      "startDate": "2021-10-15",
+      "endDate": "2024-10-15",
+      "summary": "I am one of the developers of a new Ocean (and Sea-Ice) model built in the Julia language",
+      "highlights": [
+        "Computational Ocean Modeling"
+      ]
+    },
+    {
+      "name": "Earth, Atmospheric and Planetary Science Department, Massachusetts Institute of Technology",
       "position": "Postdoctoral Scholar",
       "url": "https://example.com",
       "startDate": "2021-10-15",
