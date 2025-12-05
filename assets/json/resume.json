@@ -27,8 +27,8 @@
       "name": "Department of Environment, Land and Infrastructure Engineering (DIATI), Politecnico di Torino",
       "position": "MSCA Postdoctoral Scholar",
       "url": "https://example.com",
-      "startDate": "2021-10-15",
-      "endDate": "2024-10-15",
+      "startDate": "2025-9-15",
+      "endDate": "present",
       "summary": "I am one of the developers of a new Ocean (and Sea-Ice) model built in the Julia language",
       "highlights": [
         "Computational Ocean Modeling"
@@ -39,7 +39,7 @@
       "position": "Postdoctoral Scholar",
       "url": "https://example.com",
       "startDate": "2021-10-15",
-      "endDate": "2024-10-15",
+      "endDate": "2025-9-15",
       "summary": "I was one of the developers of a new Ocean (and Sea-Ice) model built in the Julia language",
       "highlights": [
         "Computational Ocean Modeling"
