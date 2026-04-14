@@ -5,8 +5,8 @@ github_repos:
   - CliMA/Oceananigans.jl
   - CliMA/ClimaOcean.jl
   - CliMA/ClimaSeaIce.jl
+  - NumericalEarth/NumericalEarth.jl
   - simone-silvestri/WenoNeverworld.jl
   - simone-silvestri/LESStudySetup.jl
   - simone-silvestri/BaroclinicAdjustment.jl
-  - simone-silvestri/OrthogonalSphericalShellGrids.jl
   - simone-silvestri/CudaNavierStokes

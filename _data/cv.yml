@@ -6,84 +6,79 @@
     - name: Date of Birth
       value: 20th December 1991
     - name: Languages
-      value: English, Italian, Spanish
+      value: Italian (native), English (fluent), Spanish (fluent)
+    - name: Programming Languages
+      value: Julia, CUDA, C/C++, Fortran, Python, Java, MATLAB
 
 - title: Education
   type: time_table
   contents:
     - title: PhD in Fluid Mechanics
-      institution: Technische Universitat Delft, Delft, the Netherlands
-      year: 2021
+      institution: Technische Universiteit Delft, Delft, the Netherlands
+      year: 2016 - 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - "Thesis: Turbulence-Radiation Interactions in Heated Channel Flows"
+        - "Supervisor: Prof. Rene Pecnik"
+        - title: Research focus
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Master degree in Mechanical Engineering
-      institution: Technische Universitat Delft, Delft, the Netherlands
-      year: 2016
+            - Direct Numerical Simulation of turbulent flows with variable thermophysical properties
+            - Development of a fast GPU Monte Carlo method for radiative heat transfer coupled with DNS
+            - Assessment of turbulence-radiation interactions in non-gray participating media
+    - title: MSc in Mechanical Engineering
+      institution: Technische Universiteit Delft, Delft, the Netherlands
+      year: 2014 - 2016
       description:
-        - Description 1.
-        - Description 2.
+        - Specialisation in thermal and fluid sciences
+        - "Graduated cum laude"
 
 - title: Experience
   type: time_table
   contents:
     - title: MSCA Postdoctoral Researcher
-      institution: Politecnico di Torino, Torino, Italy
-      year: 2025 - current
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+      institution: Politecnico di Torino, DIATI, Torino, Italy
+      year: 2025 - present
+      description: Marie Sklodowska-Curie Actions individual fellowship. GPU-accelerated ocean modeling and high-order numerical methods for geophysical turbulence.
+
+    - title: Research Affiliate
+      institution: Massachusetts Institute of Technology, EAPS, Cambridge, MA, USA
+      year: 2025 - present
+      description: Continuing collaboration with the Climate Modeling Alliance (CliMA) project and ongoing development of Oceananigans.jl.
 
     - title: Postdoctoral Researcher
-      institution: Massachusetts Institute of Technology, Cambridge, MA, USA
+      institution: Massachusetts Institute of Technology, EAPS, Cambridge, MA, USA
       year: 2021 - 2025
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+      description: Core developer of Oceananigans.jl. Developed the GPU-optimised hydrostatic dynamical core and WENO-based advection schemes for mesoscale-resolving climate simulations.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items: 
-#         - Nobel Prize in Physics 
-#         - Matteucci Medal
-#     - year: 2029
-#       items: 
-#         - Max Planck Medal
+    - title: <a href="https://github.com/CliMA/Oceananigans.jl">Oceananigans.jl</a>
+      year: 2021 - present
+      description: A fast, friendly, flexible ocean model written in Julia. Core developer of the GPU dynamical core and numerical methods.
+    - title: <a href="https://github.com/CliMA/ClimaOcean.jl">ClimaOcean.jl</a>
+      year: 2022 - present
+      description: Near-global ocean simulations with Oceananigans. Forcing, restoring, and data-driven boundary conditions.
+    - title: <a href="https://github.com/CliMA/ClimaSeaIce.jl">ClimaSeaIce.jl</a>
+      year: 2023 - present
+      description: Sea ice model for coupling with Oceananigans in climate simulations.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: GPU-accelerated ocean modeling
       items:
-        - Description 1.
-        - Description 2.
+        - Hydrostatic and non-hydrostatic dynamical cores on GPU architectures
+        - Mesoscale-resolving and eddy-resolving climate simulations
+    - title: Numerical methods for geophysical flows
+      items:
+        - High-order finite volume schemes (WENO) for ocean turbulence
+        - Split-explicit methods for barotropic-baroclinic coupling
+    - title: Turbulence and radiation
+      items:
+        - Turbulence-radiation interactions in high-temperature flows
+        - Monte Carlo methods for radiative heat transfer
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "<u>Hobbies:</u> Running, hiking, cooking Italian food, playing guitar"

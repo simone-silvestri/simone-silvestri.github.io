@@ -1,65 +1,69 @@
 {
   "basics": {
     "name": "Simone Silvestri",
-    "label": "Postdoctoral Researcher",
+    "label": "MSCA Postdoctoral Researcher",
     "image": "",
     "email": "silvestri.simone0@gmail.com",
     "phone": "(+39) 351 363 6005",
     "url": "https://simone-silvestri.github.io/",
-    "summary": "",
+    "summary": "Computational fluid dynamicist and ocean modeler. Core developer of Oceananigans.jl.",
     "location": {
-      "address": "Via Colletta 18",
-      "postalCode": "20135",
-      "city": "Milano",
+      "address": "",
+      "postalCode": "",
+      "city": "Torino",
       "countryCode": "IT",
-      "region": "Lombardy"
+      "region": "Piemonte"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "simone-silvestri",
+        "url": "https://github.com/simone-silvestri"
       }
     ]
   },
   "work": [
     {
       "name": "Department of Environment, Land and Infrastructure Engineering (DIATI), Politecnico di Torino",
-      "position": "MSCA Postdoctoral Scholar",
-      "url": "https://example.com",
-      "startDate": "2025-9-15",
+      "position": "MSCA Postdoctoral Researcher",
+      "url": "https://www.polito.it/",
+      "startDate": "2025-09-15",
       "endDate": "present",
-      "summary": "I am one of the developers of a new Ocean (and Sea-Ice) model built in the Julia language",
-      "highlights": [
-        "Computational Ocean Modeling"
-      ]
+      "summary": "Marie Sklodowska-Curie Actions individual fellowship. GPU-accelerated ocean modeling and high-order numerical methods for geophysical turbulence.",
+      "highlights": []
     },
     {
       "name": "Earth, Atmospheric and Planetary Science Department, Massachusetts Institute of Technology",
-      "position": "Postdoctoral Scholar",
-      "url": "https://example.com",
+      "position": "Postdoctoral Researcher",
+      "url": "https://eapsweb.mit.edu/",
       "startDate": "2021-10-15",
-      "endDate": "2025-9-15",
-      "summary": "I was one of the developers of a new Ocean (and Sea-Ice) model built in the Julia language",
-      "highlights": [
-        "Computational Ocean Modeling"
-      ]
+      "endDate": "2025-09-15",
+      "summary": "Core developer of Oceananigans.jl, a GPU-based ocean model in Julia. Developed the hydrostatic dynamical core and WENO advection schemes for mesoscale-resolving climate simulations.",
+      "highlights": []
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "Technische Universitat Delft",
+      "institution": "Technische Universiteit Delft",
       "url": "https://www.tudelft.nl/",
       "area": "Fluid Mechanics",
       "studyType": "PhD",
       "startDate": "2016-06-01",
       "endDate": "2021-06-01",
       "score": "cum laude"
+    },
+    {
+      "institution": "Technische Universiteit Delft",
+      "url": "https://www.tudelft.nl/",
+      "area": "Mechanical Engineering",
+      "studyType": "MSc",
+      "startDate": "2014-09-01",
+      "endDate": "2016-06-01",
+      "score": "cum laude"
     }
   ],
-  "awards": [
-  ],
+  "awards": [],
   "certificates": [],
   "publications": [],
   "skills": [],

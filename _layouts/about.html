@@ -37,31 +37,37 @@ layout: default
           </div>
           {%- endif %}
 
-          <div class="clearfix">
+          <div class="clearfix" style="text-align: justify;">
             {{ content }}
           </div>
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
+            <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--global-divider-color);">
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
             {%- include news.html limit=true %}
+            </div>
           {%- endif %}
 
           <!-- Latest posts -->
           {% if page.latest_posts -%}
+            <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--global-divider-color);">
             <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
             {%- include latest_posts.html %}
+            </div>
           {%- endif %}
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
+            <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--global-divider-color);">
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
             {%- include selected_papers.html %}
+            </div>
           {%- endif %}
 
           <!-- Social -->
           {%- if page.social %}
-            <div class="social">
+            <div class="social" style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--global-divider-color);">
               <div class="contact-icons">
                 {% include social.html %}
               </div>
